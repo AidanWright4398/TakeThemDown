@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5ae88056f291e4492c1e88b0502134, type: 3}
+  m_Name: AudioLib
+  m_EditorClassIdentifier: 
+  audioList:
+  - audioName: GunShot
+    audioClips:
+    - {fileID: 8300000, guid: 5021799425baa594aa613f7de2a7c965, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: Reload
+    audioClips:
+    - {fileID: 8300000, guid: e92a83bd4c64cc24ab3d98c55bf96284, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: BGM
+    audioClips:
+    - {fileID: 8300000, guid: 66eb3211adeb05e49a8ed018a48fc71e, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: PlayerDamage
+    audioClips:
+    - {fileID: 8300000, guid: 037ebf021ab2f494c8159f26edd0d6c5, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: PickUp
+    audioClips:
+    - {fileID: 8300000, guid: e92a83bd4c64cc24ab3d98c55bf96284, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: Reload Warning
+    audioClips:
+    - {fileID: 8300000, guid: e2eb218f27500c747b69801abb8b5567, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: PickUp
+    audioClips:
+    - {fileID: 8300000, guid: e92a83bd4c64cc24ab3d98c55bf96284, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: MachineGun
+    audioClips:
+    - {fileID: 8300000, guid: 25682cb72fc019e4e97e29569f22c798, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
+  - audioName: ShotGun
+    audioClips:
+    - {fileID: 8300000, guid: 5df69d8b47a718a4d8db3243ed5e315d, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
